@@ -1,7 +1,7 @@
 import utils from './utils.js'
 import fs from 'fs'
 
-//setTimeout(()=>{console.log('Hola Mundo Asincronico!')},7000);
+setTimeout(()=>{console.log('Hola Mundo Asincronico!')},7000);
 
 const aPagos = [
     {id: 1, numero: '00000002', importe : 1000, cliente:'R00001'},
